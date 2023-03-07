@@ -2,6 +2,8 @@ import { z } from "zod";
 
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 
+// :3
+
 export const studentRouter = createTRPCRouter({
   createStudent: publicProcedure
     .input(z.object({ name: z.string(), city: z.string() }))
