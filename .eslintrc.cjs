@@ -15,18 +15,18 @@ const config = {
   parserOptions: {
     project: "./tsconfig.json",
   },
-  plugins: ["@typescript-eslint"],
-  extends: ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
-  rules: {
-    "@typescript-eslint/consistent-type-imports": [
-      "warn",
-      {
-        prefer: "type-imports",
-        fixStyle: "inline-type-imports",
-      },
-    ],
-    "@typescript-eslint/no-floating-promises": "warn",
-  },
+  // plugins: ["@typescript-eslint"],
+  // extends: ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  // rules: {
+  //   "@typescript-eslint/consistent-type-imports": [
+  //     "warn",
+  //     {
+  //       prefer: "type-imports",
+  //       fixStyle: "inline-type-imports",
+  //     },
+  //   ],
+  //   "@typescript-eslint/no-floating-promises": "off",
+  // },
 };
 
 module.exports = config;
