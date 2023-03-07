@@ -6,8 +6,8 @@ generator client {
 }
 
 datasource db {
-    provider = "sqlite"
-    url      = env("DATABASE_URL")
+    provider = "mysql"
+    url      = "mysql://7qkg4p7vwq2fyy040rqc:pscale_pw_l4V5FanKO6m71QIGnff4tUxQM0OY4s7gr6hN94zhw4Q@ap-southeast.connect.psdb.cloud/jssatu"
 }
 
 model Students {
